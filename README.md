@@ -11,8 +11,6 @@ Estilos con sass y [styled components](https://styled-components.com/).
 
 ## Scripts disponibles
 
-Debes pararte en la raiz de la carpeta app y correr:
-
 ### `npm start`
 
 Se levantará el servidor de desarrollo .\
