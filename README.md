@@ -19,3 +19,13 @@ Abre [http://localhost:3000](http://localhost:3000) para visualizarlo en el nave
 ### `npm run build`
 
 Compila la app y deja los archivos estáticos en la carpeta `build` .\
+
+## Punto 2 Palíndromos
+
+    const validarPalindromo = (text) => {
+    text = text.replace(/ /g, "");
+    const textReversed = text.split("").reverse().join("");
+    return textReversed === text;
+    }
+
+    console.log(validarPalindromo("anita lava la tina"));
